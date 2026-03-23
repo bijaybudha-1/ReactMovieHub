@@ -8,4 +8,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+   server: {
+    allowedHosts: [
+      "devserver-main--moviehubnp.netlify.app"
+    ]
+  }
 })
