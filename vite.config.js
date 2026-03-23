@@ -10,7 +10,7 @@ export default defineConfig({
   ],
    server: {
     allowedHosts: [
-      "devserver-main--moviehubnp.netlify.app"
+      "moviehubnp.netlify.app"
     ]
   }
 })
